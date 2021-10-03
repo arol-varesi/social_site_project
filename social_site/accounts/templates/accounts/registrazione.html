@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load crispy_forms_tags %}
 
-{% block head_title %}{{ block.super }} | Registrati sul Forum{% endblock head_title%}
+{% block head_title %}{{ block.super }} | Registrati sul Forum{% endblock head_title %}
 
 {% block content %}
 
@@ -13,9 +13,7 @@
                 {{ form|crispy }}
                 <input type="submit" class="btn btn-info" value="Crea Account">
             </form>
-
         </div>
-
     </div>
 
 {% endblock content %}
